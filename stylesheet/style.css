@@ -1,0 +1,115 @@
+#parent{
+  border: 2px #000 dotted;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  position: relative;
+
+
+}
+
+#box1{
+  border: 2px blue solid;
+  /*float: left;*/
+  width: 48%;
+  min-width: 25%
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+
+}
+
+#box2{
+  border: 2px red solid;
+  /*float: right;*/
+  width: 48%;
+  min-width: 25%
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+
+}
+
+#box3{
+  border: 2px green solid;
+  width: 17%;
+  padding: 5px;
+  display: inline-block;
+  /*clear:both;*/
+  box-sizing: border-box;
+
+}
+
+#box4{
+  border: 2px grey double;
+  width: 37%;
+  height: 25%;
+  padding: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+#box5{
+  border: 2px yellow ridge;
+  width: 37%;
+  height: 25%;
+  padding: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+
+#myTextBox{
+  border: 2px purple dashed;
+  padding: 10px;
+  position: relative;
+
+}
+
+#label1, #label2{
+  border: 2px orange dashed;
+  position: relative;
+  top: 20px;
+
+}
+
+#setup1, #setup2{
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  left: 2.5%;
+  padding-left: 50px;
+
+
+}
+
+#AreaText{
+  border: 2px maroon dashed;
+  padding: 10px;
+  margin-top: 5px;
+  position: relative;
+
+
+}
+
+input[type=text]{
+  width: 90%;
+  padding: 5px;
+  min-width: 25%;
+  box-sizing: border-box;
+
+
+
+}
+
+textarea{
+width: 100%;
+min-width: 80%;
+
+
+
+}
